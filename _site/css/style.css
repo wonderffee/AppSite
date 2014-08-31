@@ -1,0 +1,277 @@
+@import url( font-awesome.css );
+@import url( bootstrap.css );
+@import url( bootstrap-theme.css );
+@import url( nivo-lightbox.css );
+@import url( animate.css );
+@import url( ../img/themes/default/default.css );
+@font-face {
+	font-family: Pomelo;
+	src:url(../fonts/pomelo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pomelo-webfont.woff') format('woff'),
+         url('../fonts/pomelo-webfont.ttf') format('truetype'),
+         url('../fonts/pomelo-webfont.svg#pomeloregular') format('svg);
+}
+BODY {
+	FONT-WEIGHT: 400; FONT-SIZE: 13px; COLOR: #222; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #fff
+}
+.doc-loader {
+	Z-INDEX: 100000; BACKGROUND: url(../img/loading.gif) #ffffff no-repeat center center; LEFT: 0px; OVERFLOW: visible; WIDTH: 100%; POSITION: fixed; TOP: 0px; HEIGHT: 100%
+}
+.doc-loader TD {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+header {
+	Z-INDEX: 1000; WIDTH: 100%; PADDING-TOP: 20px; POSITION: relative
+}
+.navbar-default .navbar-brand {
+	COLOR: #ecd07e
+}
+.social-links {
+	FLOAT: right
+}
+.social-links LI {
+	DISPLAY: inline-block; PADDING-LEFT: 10px; FLOAT: left; PADDING-TOP: 20px
+}
+.social-links A LI {
+	FONT-SIZE: 18px; COLOR: #ecd07e; webkit-transition: color 0.2s; transition: color 0.2s; moz-transition: color 0.2s
+}
+.social-links A LI:hover {
+	COLOR: #86552b; TEXT-DECORATION: none
+}
+.centered {
+	TEXT-ALIGN: center
+}
+
+@media Unknown    
+{
+.container {
+	WIDTH: 970px
+}
+    }
+#intro {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 1; BACKGROUND: url(../img/bg_header.jpg) fixed no-repeat center top; PADDING-BOTTOM: 140px; WIDTH: 100%; PADDING-TOP: 0px; background-size: 100%
+}
+#intro H1 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 62px; MARGIN-BOTTOM: 20px; COLOR: #fff; LINE-HEIGHT: 62px; FONT-FAMILY: 'Pomelo', sans-serif; LETTER-SPACING: 1px; TEXT-ALIGN: center
+}
+#intro H2 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 22px; MARGIN-BOTTOM: 35px; COLOR: #fff; LINE-HEIGHT: 32px; FONT-FAMILY: 'Pomelo', sans-serif; TEXT-ALIGN: center
+}
+.intro-well {
+	Z-INDEX: 100; PADDING-TOP: 70px; POSITION: relative; TEXT-ALIGN: center
+}
+#features {
+	WIDTH: 100%; PADDING-TOP: 80px; BACKGROUND-COLOR: #fff
+}
+#features H1 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 28px; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #222; LINE-HEIGHT: 32px; TEXT-ALIGN: center
+}
+#features H2 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 18px; PADDING-BOTTOM: 70px; MARGIN: 0px; COLOR: #222; LINE-HEIGHT: 22px; TEXT-ALIGN: center
+}
+.more-features {
+	PADDING-BOTTOM: 110px; PADDING-TOP: 110px
+}
+.features-item {
+	MARGIN-BOTTOM: 40px
+}
+.features-item H4 {
+	FONT-WEIGHT: 700; FONT-SIZE: 14px; MARGIN-BOTTOM: 15px; TEXT-TRANSFORM: uppercase; COLOR: #0386c9! important; FONT-FAMILY: sans-serif
+}
+.features-item P {
+	FONT-WEIGHT: 300; FONT-SIZE: 15px; MARGIN-BOTTOM: 30px; LINE-HEIGHT: 22px; FONT-FAMILY: sans-serif
+}
+.features-right {
+	PADDING-TOP: 70px
+}
+.features-left {
+	PADDING-TOP: 70px
+}
+.text-align-right {
+	TEXT-ALIGN: right
+}
+.text-align-left {
+	TEXT-ALIGN: left
+}
+.iconbox {
+	BACKGROUND: url(../img/icon_borders.png) no-repeat 0px 0px; MARGIN: 0px auto 40px; WIDTH: 270px; POSITION: relative; HEIGHT: 270px
+}
+.icntitle {
+	FONT-WEIGHT: 300; FONT-SIZE: 28px; LINE-HEIGHT: 38px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.icnp {
+	LINE-HEIGHT: 1.6; TEXT-ALIGN: center
+}
+UNKNOWN {
+	LEFT: 50%; MARGIN: -63px 0px 0px -63px; WIDTH: 126px; TEXT-INDENT: -9999px; POSITION: absolute; TOP: 50%; HEIGHT: 126px; webkit-transition: all .3s ease-out; transition: all .3s ease-out; moz-transition: all .3s ease-out; o-transition: all .3s ease-out; ms-transition: all .3s ease-out
+}
+.icn-1 {
+	BACKGROUND-IMAGE: url(../img/i1.png)
+}
+.icn-1:hover {
+	BACKGROUND-POSITION: center bottom
+}
+.icn-2 {
+	BACKGROUND-IMAGE: url(../img/i2.png)
+}
+.icn-2:hover {
+	BACKGROUND-POSITION: center bottom
+}
+.icn-3 {
+	BACKGROUND-IMAGE: url(../img/i3.png)
+}
+.icn-3:hover {
+	BACKGROUND-POSITION: center bottom
+}
+.icons_left {
+	BORDER-RIGHT: #0386c9 1px solid; BORDER-TOP: #0386c9 1px solid; FONT-WEIGHT: 300; FONT-SIZE: 22px; FLOAT: left; BORDER-LEFT: #0386c9 1px solid; WIDTH: 55px; COLOR: #0386c9; LINE-HEIGHT: 55px; BORDER-BOTTOM: #0386c9 1px solid; POSITION: relative; HEIGHT: 55px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center; border-radius: 28px 28px; webkit-transition: all .50s ease-in-out; transition: all .50s ease-in-out; moz-transition: all .50s ease-in-out; webkit-border-radius: 28px 28px; moz-border-radius: 28px 28px
+}
+.icons_right {
+	BORDER-RIGHT: #0386c9 1px solid; BORDER-TOP: #0386c9 1px solid; FONT-WEIGHT: 300; FONT-SIZE: 22px; FLOAT: left; BORDER-LEFT: #0386c9 1px solid; WIDTH: 55px; COLOR: #0386c9; LINE-HEIGHT: 55px; BORDER-BOTTOM: #0386c9 1px solid; POSITION: relative; HEIGHT: 55px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center; border-radius: 28px 28px; webkit-transition: all .50s ease-in-out; transition: all .50s ease-in-out; moz-transition: all .50s ease-in-out; webkit-border-radius: 28px 28px; moz-border-radius: 28px 28px
+}
+.icons_left {
+	FLOAT: left; MARGIN: 10px 25px 40px 0px
+}
+.icons_right {
+	FLOAT: right; MARGIN: 10px 0px 40px 25px
+}
+#newsletter {
+	Z-INDEX: 100; BACKGROUND: url(../img/bg_newsletter.jpg) fixed no-repeat center top; PADDING-BOTTOM: 110px; WIDTH: 100%; PADDING-TOP: 110px; TEXT-ALIGN: center; background-size: cover
+}
+#newsletter H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: 300; FONT-SIZE: 42px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #fff; LINE-HEIGHT: 48px; PADDING-TOP: 0px
+}
+#newsletter FORM {
+	MARGIN-TOP: 40px; MARGIN-BOTTOM: 20px
+}
+#newsletter FORM INPUT {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 362px; HEIGHT: 52px; BORDER-RIGHT-WIDTH: 0px; border-radius: 0
+}
+#newsletter FORM BUTTON {
+	MARGIN-BOTTOM: 6px; HEIGHT: 52px
+}
+#screenshots {
+	PADDING-BOTTOM: 80px; PADDING-TOP: 80px
+}
+#screenshots H1 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 28px; PADDING-BOTTOM: 10px; MARGIN: 0px; COLOR: #222; LINE-HEIGHT: 32px; TEXT-ALIGN: center
+}
+#screenshots H2 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 18px; PADDING-BOTTOM: 70px; MARGIN: 0px; COLOR: #222; LINE-HEIGHT: 22px; TEXT-ALIGN: center
+}
+#screenshots .thumbnail {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; border-radius: 0
+}
+#download H2 {
+	CLEAR: both; DISPLAY: block; FONT-WEIGHT: 300; FONT-SIZE: 18px; PADDING-BOTTOM: 70px; MARGIN: 0px; COLOR: #222; LINE-HEIGHT: 22px
+}
+footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #34495e; PADDING-BOTTOM: 70px; COLOR: #fff; PADDING-TOP: 70px; TEXT-ALIGN: center
+}
+footer P {
+	FONT-SIZE: 15px; LINE-HEIGHT: 20px
+}
+
+@media Unknown    
+{
+header {
+	PADDING-TOP: 10px
+}
+#intro {
+	BACKGROUND: url(../img/bg_header_small.jpg); PADDING-BOTTOM: 50px
+}
+#intro H1 {
+	FONT-SIZE: 50px; LINE-HEIGHT: 22px; PADDING-TOP: 100px
+}
+#intro H2 {
+	FONT-SIZE: 30px; LINE-HEIGHT: 18px
+}
+.intro-well {
+	PADDING-TOP: 0px
+}
+#features {
+	PADDING-TOP: 50px
+}
+.more-features {
+	PADDING-BOTTOM: 50px; PADDING-TOP: 50px
+}
+.features-right {
+	PADDING-TOP: 0px
+}
+.features-left {
+	PADDING-TOP: 0px
+}
+#newsletter {
+	PADDING-BOTTOM: 50px; PADDING-TOP: 50px
+}
+#newsletter FORM {
+	MARGIN-TOP: 20px
+}
+#newsletter FORM INPUT {
+	WIDTH: auto
+}
+#newsletter H3 {
+	FONT-SIZE: 18px; LINE-HEIGHT: 28px
+}
+#screenshots {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 50px
+}
+#screenshots H2 {
+	PADDING-BOTTOM: 30px
+}
+.social-links {
+	DISPLAY: none
+}
+.intro-well {
+	PADDING-TOP: 50px
+}
+.features-right {
+	PADDING-TOP: 10px
+}
+.features-left {
+	PADDING-TOP: 10px
+}
+.container {
+	max-width: 730px
+}
+#intro {
+	PADDING-BOTTOM: 100px
+}
+.intro-well {
+	PADDING-TOP: 20px
+}
+#intro H1 {
+	FONT-SIZE: 48px; LINE-HEIGHT: 48px
+}
+#intro H2 {
+	FONT-SIZE: 18px; LINE-HEIGHT: 22px
+}
+#iphone {
+	PADDING-TOP: 30px
+}
+.features-right {
+	PADDING-TOP: 30px
+}
+.features-left {
+	PADDING-TOP: 30px
+}
+.more-features {
+	PADDING-BOTTOM: 50px; PADDING-TOP: 15px
+}
+#newsletter {
+	PADDING-BOTTOM: 40px; PADDING-TOP: 50px
+}
+#newsletter H3 {
+	FONT-SIZE: 30px; LINE-HEIGHT: 38px
+}
+#screenshots {
+	PADDING-BOTTOM: 30px
+}
+.icnp {
+	PADDING-BOTTOM: 20px
+}
+#newsletter FORM BUTTON {
+	MARGIN-TOP: 10px
+}
+
+}

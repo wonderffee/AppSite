@@ -1,31 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!--link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'-->
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Appsite by wonderffee</title>
-  </head>
-
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Flappy Bird Egg</h1>
-        <h2>Welcome to use my app!</h2>
-        <!-- <a href="https://github.com/wonderffee/AppSite" class="button"><small>View project on</small>GitHub</a> -->
+<html lang="en">
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>MeowCat - A simple running cat game</title> 
+  <link href="css/style.css" rel="stylesheet" /> 
+  <link href="http://vjs.zencdn.net/4.6/video-js.css" rel="stylesheet" /> 
+  <script src="http://vjs.zencdn.net/4.6/video.js"></script> 
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--> 
+ </head> 
+ <body> 
+  <div class="doc-loader"></div> 
+  <!--/////////// HEADER SECTION //////////--> 
+  <section id="intro"> 
+   <header> 
+    <nav class="navbar navbar-default" role="navigation"> 
+     <div class="container"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <div class="container"> 
+       <a class="navbar-brand" href="http://onevcat.com">OneV's Den</a> 
+       <div id="main-nav" class="navbar-collapse"> 
+        <ul class="social-links"> 
+         <a href="http://twitter.com/share?text=%23meowcat&amp;url=http://meowcat.onevcat.com" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> <li class="social fa fa-twitter"></li> </a>
+         <!-- Twitter Link --> 
+         <a href="https://www.facebook.com/sharer/sharer.php?u=http://meowcat.onevcat.com" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"> <li class="social fa fa-facebook"></li> </a>
+         <!-- Facebook Link --> 
+         <a href="http://service.weibo.com/share/share.php?url=http://meowcat.onevcat.com&amp;appkey=&amp;title=%23meowcat%23&amp;language=zh_cn" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> <li class="social fa fa-weibo"></li> </a>
+         <!-- Weibo Link --> 
+         <a href="mailto:meowcat@onevcat.com" title="Contact"> <li class="social fa fa-envelope"></li> </a>
+         <!-- Mail --> 
+        </ul> 
+       </div>
+       <!-- /navbar-collapse --> 
       </div>
-    </header>
-
-    <!--////////// SCREENSHOTS SECTION ////////// --> 
+      <!-- /container --> 
+     </div> 
+    </nav> 
+   </header> 
+   <div class="container"> 
+    <div class="intro-well wow animated bounceIn"> 
+     <div class="col-md-12"> 
+      <h1>Meow Cat</h1> 
+      <h2>Just keep jumping</h2> 
+      <div class="btn-group"> 
+       <a class="btn btn-primary" href="https://itunes.apple.com/app/id871117818?ls=1&amp;mt=8"><li class="fa fa-apple fa-lg"></li>&nbsp;&nbsp;App Store</a> 
+       <div class="btn-group"> 
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> <li class="fa fa-android fa-lg"></li>&nbsp;&nbsp;Android <span class="caret"></span> </button> 
+        <ul class="dropdown-menu" role="menu"> 
+         <li><a href="https://play.google.com/store/apps/details?id=com.onevcat.meowcat">Google Play</a></li> 
+         <li role="presentation" class="divider"></li> 
+         <li><a href="http://www.wandoujia.com/apps/com.onevcat.meowcat">豌豆荚</a></li> 
+         <li><a href="http://www.appchina.com/app/com.onevcat.meowcat/">应用汇</a></li> 
+         <li><a href="http://www.apkol.com/game/com.onevcat.meowcat.html?aid=131256">安卓在线</a></li> 
+         <li><a href="http://app.aatouch.com/app/info/appid/82038">安贝市场</a></li> 
+         <li><a href="http://ard9.com/yzyx/2537757.html">安卓之家</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>
+   <!-- /container --> 
+  </section> 
+  <!--////////// SCREENSHOTS SECTION ////////// --> 
   <section id="screenshots"> 
    <div class="container wow fadeInUp animated"> 
     <h1>Video &amp; Screenshots</h1> 
@@ -33,74 +76,56 @@
    </div>
    <!-- /container --> 
    <div class="container"> 
+    <div class="row"> 
+     <div class="col-sm-4"></div> 
+     <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="0.1s"> 
+      <video id="demo" class="video-js vjs-default-skin vjs-big-play-centered" controls="" preload="auto" width="292" height="516" poster="img/screenshots/0.jpg" data-setup="{&quot;example_option&quot;:true}"> 
+       <source src="img/meowcat.mp4" type="video/mp4"></source> 
+       <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p> 
+      </video> 
+     </div> 
+     <div class="col-sm-4"></div> 
+    </div> 
     <br \="" /> 
     <div class="row"> 
      <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="0.2s"> 
-      <a href="images/screenshots/1.jpg" class="thumbnail" data-lightbox-gallery="gallery1"> <img src="images/screenshots/1.jpg" alt="..." /> </a> 
+      <a href="img/screenshots/1.jpg" class="thumbnail" data-lightbox-gallery="gallery1"> <img src="img/screenshots/1.jpg" alt="..." /> </a> 
      </div> 
      <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="0.3s"> 
-      <a href="images/screenshots/2.jpg" class="thumbnail" data-lightbox-gallery="gallery1"> <img src="images/screenshots/2.jpg" alt="..." /> </a> 
+      <a href="img/screenshots/2.jpg" class="thumbnail" data-lightbox-gallery="gallery1"> <img src="img/screenshots/2.jpg" alt="..." /> </a> 
      </div> 
      <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="0.4s"> 
-      <a href="images/screenshots/3.jpg" class="thumbnail" data-lightbox-gallery="gallery1"> <img src="images/screenshots/3.jpg" alt="..." /> </a> 
+      <a href="img/screenshots/3.jpg" class="thumbnail" data-lightbox-gallery="gallery1"> <img src="img/screenshots/3.jpg" alt="..." /> </a> 
      </div> 
     </div> 
    </div> 
   </section> 
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Just keep jumping</h3>
-
-<p>Screenshots: Addictive game for you to play from several minutes to a whole day!</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Just enjoy it!</h3>
-
-<p>As easy as one operation, just touch your screen to jump. But as hard as most of you can get no more than 10 points.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/wonderffee/AppSite/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/wonderffee/AppSite/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/wonderffee/AppSite"></a> is maintained by <a href="https://github.com/wonderffee">wonderffee</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+  <!--////////// DOWNLOAD SECTION ////////// --> 
+  <section id="download"> 
+   <div class="container wow fadeIn animated"> 
+    <div class="row"> 
+     <div class="col-md-4"> 
+      <h2>As easy as one operation, just touch your screen to jump. But as hard as most of you can get no more than 10 points.</h2> 
+      <h2>Download and try yourself today. Of course it's free to play. :)</h2> 
+     </div> 
+     <div class="col-md-8"> 
+      <img src="img/iphone.jpg" class="img-responsive" alt="picture" /> 
+     </div> 
     </div>
-
-  
-  </body>
+    <!-- /row --> 
+   </div>
+   <!-- /container --> 
+  </section> 
+  <!--////////// FOOTER SECTION ////////// --> 
+  <footer> 
+   <p><a href="http://onevcat.com">OneV's Den</a> &copy; Copyright 2014 </p> 
+  </footer> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.0.min.js"></script> 
+  <!-- Include all compiled plugins (below), or include individual files as needed --> 
+  <script src="js/bootstrap.js"></script> 
+  <script src="js/wow.min.js"></script> 
+  <script src="js/nivo-lightbox.min.js"></script> 
+  <script src="js/main.js"></script>  
+ </body>
 </html>
